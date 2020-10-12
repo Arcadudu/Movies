@@ -49,13 +49,15 @@ public class MainActivity extends AppCompatActivity implements MyDialog.MyDialog
             @Override
             public void onClick(View view) {
                 openDialog();
-                fabAddFilm.hide();
+//                fabAddFilm.hide();
             }
         });
 
 
 
     }
+
+
 
     private void openDialog() {
         MyDialog dialog = new MyDialog();

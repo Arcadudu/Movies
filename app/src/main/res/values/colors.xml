@@ -6,5 +6,6 @@
 
     <color name="white">#FFFFFF</color>
     <color name="grey">#BDBDBD</color>
+    <color name="ripple">#404040</color>
 
 </resources>

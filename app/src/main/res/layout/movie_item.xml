@@ -22,8 +22,8 @@
                 android:id="@+id/tv_title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
                 android:paddingBottom="8dp"
+                android:paddingTop="8dp"
                 android:background="?attr/selectableItemBackground"
                 android:fontFamily="@font/roboto_bold"
                 android:gravity="center_horizontal|center_vertical"
@@ -36,11 +36,17 @@
                 android:id="@+id/expandable_constraint"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-
-                android:visibility="visible"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/tv_title">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/grey"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"/>
 
                 <TextView
                     android:id="@+id/tv_year"
